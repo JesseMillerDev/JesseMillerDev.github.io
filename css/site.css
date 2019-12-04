@@ -96,6 +96,12 @@ app {
     color: red;
 }
 
+.album--selected {
+    background-color: pink;
+    box-shadow: 5px 5px lightgrey;
+    transform: scale(1.03);
+}
+
 @media (max-width: 767.98px) {
     .main .top-row {
         display: none;
